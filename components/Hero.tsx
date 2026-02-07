@@ -8,7 +8,7 @@ export default function Hero() {
     const { setCurrentView } = useUIStore();
 
     return (
-        <div className="relative h-screen w-full flex items-center justify-center overflow-hidden">
+        <div className="relative min-h-screen lg:h-screen w-full flex items-center justify-center overflow-y-auto lg:overflow-hidden pb-32 lg:pb-0">
             <div className="container mx-auto px-4 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
 
                 {/* Left: Portrait (Placeholder for now, will replace with Dr. Roy's image) */}
@@ -23,7 +23,7 @@ export default function Hero() {
                         <img
                             src="/assets/dr_roy_real.jpg"
                             alt="Dr. Roy Prasad"
-                            className="w-full h-full object-cover opacity-95 group-hover:opacity-100 transition-opacity duration-700"
+                            className="w-full h-full object-cover object-top opacity-95 group-hover:opacity-100 transition-opacity duration-700"
                         />
 
                         {/* Glass Overlay/Reflection */}
