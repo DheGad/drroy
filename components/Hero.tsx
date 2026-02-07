@@ -19,7 +19,7 @@ export default function Hero() {
                     transition={{ duration: 1.2, ease: "easeOut" }}
                     className="relative h-[600px] w-full flex items-center justify-center group"
                 >
-                    <div className="relative w-[450px] h-[550px] rounded-2xl overflow-hidden border border-white/10 shadow-2xl transition-transform duration-700 group-hover:scale-[1.02]">
+                    <div className="relative w-full max-w-[350px] md:max-w-[450px] aspect-[4/5] rounded-2xl overflow-hidden border border-white/10 shadow-2xl transition-transform duration-700 group-hover:scale-[1.02]">
                         <img
                             src="/assets/dr_roy_real.jpg"
                             alt="Dr. Roy Prasad"
@@ -84,7 +84,7 @@ export default function Hero() {
                         initial={{ opacity: 0 }}
                         animate={{ opacity: 1 }}
                         transition={{ staggerChildren: 0.1, delayChildren: 0.5 }}
-                        className="text-4xl md:text-6xl font-bold tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-white via-blue-100 to-white/50 leading-tight"
+                        className="text-3xl md:text-6xl font-bold tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-white via-blue-100 to-white/50 leading-tight"
                     >
                         {"Dr. Roy Prasad’s Vision for the 2026 Workforce".split("").map((char, index) => (
                             <motion.span
@@ -105,7 +105,7 @@ export default function Hero() {
                         className="space-y-6"
                     >
                         <div>
-                            <p className="text-4xl text-white font-semibold tracking-wide drop-shadow-md mb-2">
+                            <p className="text-2xl md:text-4xl text-white font-semibold tracking-wide drop-shadow-md mb-2">
                                 Roy (Rohitesh) Prasad Dr.
                             </p>
                             <p className="text-xl text-blue-200/80 font-light italic">

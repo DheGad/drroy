@@ -37,7 +37,7 @@ export default function Insights() {
     ];
 
     return (
-        <div className="min-h-screen pt-24 pb-32 px-4 md:px-12 relative overflow-y-auto font-sans">
+        <div className="min-h-screen pt-20 md:pt-24 pb-32 px-4 md:px-12 relative overflow-y-auto font-sans">
 
             {/* Header Section */}
             <motion.div
@@ -45,7 +45,7 @@ export default function Insights() {
                 animate={{ opacity: 1, y: 0 }}
                 className="max-w-6xl mx-auto mb-16 text-center"
             >
-                <h1 className="text-4xl md:text-6xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-300 via-white to-purple-300 mb-6 tracking-tight drop-shadow-lg">
+                <h1 className="text-3xl md:text-6xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-300 via-white to-purple-300 mb-6 tracking-tight drop-shadow-lg">
                     Meet the New Millionaire Visionary Leader
                 </h1>
                 <p className="text-xl md:text-2xl text-blue-100 font-light max-w-3xl mx-auto leading-relaxed">

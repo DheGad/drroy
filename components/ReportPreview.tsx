@@ -36,14 +36,14 @@ export default function ReportPreview() {
             <motion.div
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
-                className="max-w-4xl w-full glass-card p-8 rounded-3xl border border-white/10 relative"
+                className="max-w-4xl w-full glass-card p-4 md:p-8 rounded-3xl border border-white/10 relative"
             >
                 <div className="absolute top-0 right-0 p-6 opacity-20">
                     <FileText size={120} />
                 </div>
 
                 <div className="relative z-10">
-                    <h2 className="text-3xl font-bold text-white mb-2">Executive Strategy Report</h2>
+                    <h2 className="text-2xl md:text-3xl font-bold text-white mb-2">Executive Strategy Report</h2>
                     <p className="text-blue-300 mb-8">Preview of your generated workforce intelligence.</p>
 
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
